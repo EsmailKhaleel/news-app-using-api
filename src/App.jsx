@@ -22,7 +22,7 @@ function App() {
     console.log(news);
   }, []);
 
-  if (news.length === 0) {
+  if (news.length === 0 || !news) {
     return (
       <p>Loading news...</p>
     )
