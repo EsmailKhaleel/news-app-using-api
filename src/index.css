@@ -98,7 +98,7 @@ button:focus-visible {
   justify-content: center;
 }
 
-#card {
+.card {
   background: #2b2e4a;
   border-radius: 16px;
   overflow: hidden;
@@ -151,3 +151,52 @@ button:focus-visible {
   color: #a5a5a5;
 }
 
+/* hero section */
+#hero-wrapper{
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  min-height: 400px;
+  border: 1px solid red;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+#hero-section{
+  max-height: 600px; 
+  flex-grow: 1;
+  display: grid;
+  border: 1px solid blue;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "card1 card2"
+                       "card1 card3";
+  gap: 20px;
+}
+#card-1{
+  grid-area: card1;
+  border: 3px solid orange;background: white;
+  width: 200px;
+}
+#card-2{
+  grid-area: card2;
+  border: 3px solid orange;background: white;
+}
+#card-3{
+  grid-area: card3;
+  border: 3px solid orange;background: white;
+}
+#card-1, #card-2, #card-3 {
+  /* overflow: hidden;  */
+  /* height: 400px; */
+}
+.hero-image {
+  position: relative;
+  object-fit: cover; 
+  height: 100%;
+  height: 100%;
+}
+.hero-card-content{
+  position: absolute;
+  bottom: 10px;
+  color: #2b2e4a;
+}

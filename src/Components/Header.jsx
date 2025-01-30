@@ -17,10 +17,15 @@ function Header() {
 }
 
 const headerStyle = {
-    height: '100px',
+  position:'absolute',
+  zIndex:'-1',
+  top:0,
+  left:0,
+  width:'100%',
+  height: '500px',
   display: 'flex',
   justifyContent: 'space-between',
-  alignItems: 'center',
+  alignItems: 'flex-start',
   padding: '10px 20px',
   backgroundColor: '#0a0f0f',
 };

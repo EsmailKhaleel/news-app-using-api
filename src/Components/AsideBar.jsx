@@ -1,59 +1,6 @@
 import React from 'react';
 
 function AsideBar() {
-  const trendingHeadlines = [
-    {
-      title: 'U.S. downs suspected Chinese spy balloon over the Atlantic coast',
-      description:
-        'China called the vessel’s downing “an overreaction” and said it retains the right to respond further.',
-      author: 'By Caleb Hudral',
-      date: 'Feb. 5, 2023',
-      image:
-        'https://via.placeholder.com/150/1e90ff', // Replace with actual image URL
-    },
-    {
-      title: 'Mystery Portrait May Be a Raphael, Artificial Intelligence Suggests',
-      description:
-        'A mysterious portrait of the Virgin Mary and Jesus may have been painted by the master Raphael, recent findings hint.',
-      author: 'By Allyn Cyrille',
-      date: 'Feb. 5, 2023',
-      image: 'https://via.placeholder.com/150/32cd32',
-    },
-    {
-      title: 'LeBron James Keeps the World Watching',
-      description:
-        'The Los Angeles Lakers star has embraced the constant spotlight of celebrity.',
-      author: 'By Jude Matthewsen',
-      date: 'Feb. 4, 2023',
-      image: 'https://via.placeholder.com/150/b22222',
-    },
-    {
-      title:
-        'Russia-Ukraine war live: arming Ukraine is "the only path to peace."',
-      description:
-        'Helping Ukraine to fight is one path to achieving peace, say the British foreign secretary.',
-      author: 'By Jude Matthewsen',
-      date: 'Feb. 5, 2023',
-      image: 'https://via.placeholder.com/150/4682b4',
-    },
-    {
-      title:
-        'NASA and DARPA are working on a nuclear-powered rocket that could...',
-      description:
-        'When NASA’s Orion spacecraft returned to Earth, it was moving 25,000 mph.',
-      author: 'By Riley Hopkins',
-      date: 'Feb. 5, 2023',
-      image: 'https://via.placeholder.com/150/ffa500',
-    },
-    {
-      title: 'Few Americans are excited about a Biden-Trump rematch',
-      description:
-        'President Biden and former president Trump lead their respective parties.',
-      author: 'By Adalynn Pugliese',
-      date: 'Feb. 5, 2023',
-      image: 'https://via.placeholder.com/150/9370db',
-    },
-  ];
 
   return (
     <aside style={asideStyle}>

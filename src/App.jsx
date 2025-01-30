@@ -3,6 +3,7 @@ import axios from 'axios';
 import Header from './Components/Header';
 import NavBar from './Components/NavBar';
 import Footer from './Components/Footer';
+import HeroSection from './Components/HeroSection';
 function App() {
 
   const [news, setNews] = useState([]);
@@ -30,13 +31,13 @@ function App() {
   return (
     <>
     <Header/>
-    <NavBar/>
+    <HeroSection cardsData={[news.at(0),news.at(1),news.at(2)]}/>
     <section id='main-wrapper'>
 
       <div id='cards-wrapper'>
         {news.map((article, index) => (
 
-          <div id="card">
+          <div className="card">
 
             <div className="new-image">
               <img src={article.urlToImage} alt={article.title}/>
